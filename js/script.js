@@ -56,6 +56,14 @@ function prevClick() {
     }
 };
 
+function arrowClick(){
+
+    $('.arrow').animateClick({
+
+        'color': 'red'
+    })
+};
+
 function init(){
 
     $('.arrow.right').click(nextClick);

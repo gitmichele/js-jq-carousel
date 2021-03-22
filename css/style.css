@@ -20,14 +20,25 @@
 #carousel .img-container img{
     width: 100%;
     display: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
 #carousel .img-container img.js-active{
     display: block;
+}
+#carousel .img-container img:hover{
+
+    opacity: .9;
 }
 #carousel .arrow{
     margin: 0 50px;
     font-size: 100px;
     cursor: pointer;
+    color: rgb(0, 34, 78);
+}
+#carousel .arrow:hover{
+
+    transform: scale(1.1);
 }
 #carousel .dots{
     width: 100%;
